@@ -9,9 +9,9 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: '/my-nextjs-project',
+  //basePath: '/my-nextjs-project',
   trailingSlash: true, // Optional, adds trailing slash to every route for better GitHub Pages support
-  output: 'export',
+  
   async headers() {
     return [
       {

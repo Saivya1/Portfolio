@@ -281,7 +281,7 @@ export default function HeroSection() {
           >
             <Mail className="h-5 w-5 text-white/80" />
           </a>
-          <a href="/resume.pdf" className="p-2 rounded-full bg-white/5 hover:bg-white/10 transition-colors" aria-label="Resume">
+          <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="p-2 rounded-full bg-white/5 hover:bg-white/10 transition-colors" aria-label="Resume">
             <FileText className="h-5 w-5 text-white/80" />
           </a>
         </div>

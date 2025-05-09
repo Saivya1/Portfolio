@@ -69,7 +69,7 @@ export default function Navbar() {
     { icon: <Github className="h-5 w-5" />, href: "https://github.com/Saivya1", label: "GitHub" },
     { icon: <Linkedin className="h-5 w-5" />, href: "https://linkedin.com/in/saivyasingh", label: "LinkedIn" },
     { icon: <Mail className="h-5 w-5" />, href: "mailto:saivya1@gmail.com", label: "Email" },
-    { icon: <FileText className="h-5 w-5" />, href: "#", label: "Resume" },
+    { icon: <FileText className="h-5 w-5" />, href: "/resume.pdf", target: "_blank", label: "Resume" },
   ]
 
   return (
